@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Darth Vaider</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">Darth Vaider</div>
+    <div class="block">
+      <div class="block-title">на связи</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="https://t.me/starwarsfc_renewal" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:sotom4r4@yandex.ru">a.skywalker@imperial.emp</a>
+        </div>
+        <div class="entry">
+          <a href="https://www.facebook.com/profile.php?id=100066481307485&locale=ru_RU" target="_blank">facebook</a>
+        </div>
+        <div class="block">
+      <div class="block-title">Мой мерч</div>
+      <div class="block-entries">
+      <div class="entry">
+        <a href="https://megamarket.ru/catalog/details/figurka-star-wars-darth-vader-return-of-anakin-skywalker-20-sm-100024146114/" target="_blank">Статуя в полный рост</a>
+        </div>
+         <div class="entry">
+        <a href="https://darth-shop.ru/products/statuetka-darth-vader-bolshaya" target="_blank">Парадный бюст</a>
+        </div>
+        <div class="entry">
+        <a href="https://megamarket.ru/catalog/details/modeli-dlya-sborki-zvezda-imperskiy-zvezdnyy-razrushitel-100002137287/" target="_blank">Любимое рабочее место</a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </body>
+</html>
