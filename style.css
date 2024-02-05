@@ -57,6 +57,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat ;
   background-position: center;
+  p {
+    font-size: 8rem;
+  }
+  .text-skyblue {
+    color: skyblue;
+  }
   /* 
   Меняем стандартный курсор на милого котика, а так как котик у нас круглый,
   а стрелка мыши срабатывает самым верхним углом (там её хотспот), а с котиком это 
